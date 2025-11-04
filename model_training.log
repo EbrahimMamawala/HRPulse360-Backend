@@ -1,0 +1,182 @@
+
+--- Calculating Baseline Scores (Default Hyperparameters) ---
+
+Calculating baseline for XGBoost...
+--> XGBoost Baseline CV F1: 0.3181
+
+Calculating baseline for RandomForest...
+--> RandomForest Baseline CV F1: 0.0211
+
+Calculating baseline for LogisticRegression...
+--> LogisticRegression Baseline CV F1: 0.3486
+
+Calculating baseline for LightGBM...
+--> LightGBM Baseline CV F1: 0.1049
+
+Calculating baseline for CatBoost...
+--> CatBoost Baseline CV F1: 0.0960
+
+Calculating baseline for BalancedRF...
+--> BalancedRF Baseline CV F1: 0.3397
+
+
+Running BSA for XGBoost ...
+[BSA] iter=1/50 gbest_score=-0.341396
+[BSA] iter=5/50 gbest_score=-0.342505
+[BSA] iter=10/50 gbest_score=-0.345647
+[BSA] iter=15/50 gbest_score=-0.346114
+[BSA] iter=20/50 gbest_score=-0.347143
+[BSA] iter=25/50 gbest_score=-0.347143
+[BSA] iter=30/50 gbest_score=-0.347143
+[BSA] iter=35/50 gbest_score=-0.347143
+[BSA] iter=40/50 gbest_score=-0.347143
+[BSA] iter=45/50 gbest_score=-0.347143
+[BSA] iter=50/50 gbest_score=-0.347143
+[BSA] finished. best_score= -0.34714276734218996
+--> XGBoost Baseline F1: 0.3181 | Optimized F1: 0.3471 | Improvement: 0.0290
+    Best Params: [1.970551e+02 9.580500e+00 2.800000e-02 6.498000e-01 5.959000e-01]
+
+Running BSA for RandomForest ...
+[BSA] iter=1/50 gbest_score=-0.285801
+[BSA] iter=5/50 gbest_score=-0.288798
+[BSA] iter=10/50 gbest_score=-0.289194
+[BSA] iter=15/50 gbest_score=-0.290105
+[BSA] iter=20/50 gbest_score=-0.290304
+[BSA] iter=25/50 gbest_score=-0.290304
+[BSA] iter=30/50 gbest_score=-0.292960
+[BSA] iter=35/50 gbest_score=-0.293683
+[BSA] iter=40/50 gbest_score=-0.293683
+[BSA] iter=45/50 gbest_score=-0.293683
+[BSA] iter=50/50 gbest_score=-0.293683
+[BSA] finished. best_score= -0.29368283652048155
+--> RandomForest Baseline F1: 0.0211 | Optimized F1: 0.2937 | Improvement: 0.2726
+    Best Params: [271.9054   2.371 ]
+
+Running BSA for LogisticRegression ...
+[BSA] iter=1/50 gbest_score=-0.348677
+[BSA] iter=5/50 gbest_score=-0.348737
+[BSA] iter=10/50 gbest_score=-0.348801
+[BSA] iter=15/50 gbest_score=-0.348871
+[BSA] iter=20/50 gbest_score=-0.348871
+[BSA] iter=25/50 gbest_score=-0.348871
+[BSA] iter=30/50 gbest_score=-0.348871
+[BSA] iter=35/50 gbest_score=-0.348871
+[BSA] iter=40/50 gbest_score=-0.348871
+[BSA] iter=45/50 gbest_score=-0.348871
+[BSA] iter=50/50 gbest_score=-0.348871
+[BSA] finished. best_score= -0.34887110099487895
+--> LogisticRegression Baseline F1: 0.3486 | Optimized F1: 0.3489 | Improvement: 0.0002
+    Best Params: [0.5635]
+
+Running BSA for LightGBM ...
+[BSA] iter=1/50 gbest_score=-0.144109
+[BSA] iter=5/50 gbest_score=-0.153469
+[BSA] iter=10/50 gbest_score=-0.153581
+[BSA] iter=15/50 gbest_score=-0.154732
+[BSA] iter=20/50 gbest_score=-0.154732
+[BSA] iter=25/50 gbest_score=-0.154846
+[BSA] iter=30/50 gbest_score=-0.157470
+[BSA] iter=35/50 gbest_score=-0.157470
+[BSA] iter=40/50 gbest_score=-0.157470
+[BSA] iter=45/50 gbest_score=-0.158718
+[BSA] iter=50/50 gbest_score=-0.158718
+[BSA] finished. best_score= -0.15871761305768256
+--> LightGBM Baseline F1: 0.1049 | Optimized F1: 0.1587 | Improvement: 0.0538
+    Best Params: [ 53.976   10.8856   0.2961 130.7989   0.5225   0.9962]
+
+Running BSA for CatBoost ...
+[BSA] iter=1/50 gbest_score=-0.225499
+[BSA] iter=5/50 gbest_score=-0.338036
+[BSA] iter=10/50 gbest_score=-0.340550
+[BSA] iter=15/50 gbest_score=-0.341631
+[BSA] iter=20/50 gbest_score=-0.342938
+[BSA] iter=25/50 gbest_score=-0.342938
+[BSA] iter=30/50 gbest_score=-0.342938
+[BSA] iter=35/50 gbest_score=-0.342938
+[BSA] iter=40/50 gbest_score=-0.342938
+[BSA] iter=45/50 gbest_score=-0.342938
+[BSA] iter=50/50 gbest_score=-0.342938
+[BSA] finished. best_score= -0.34293773304939335
+--> CatBoost Baseline F1: 0.0960 | Optimized F1: 0.3429 | Improvement: 0.2469
+    Best Params: [7.52044e+01 3.36460e+00 1.74000e-02 5.81860e+00]
+
+Running BSA for BalancedRF ...
+[BSA] iter=1/50 gbest_score=-0.357794
+[BSA] iter=5/50 gbest_score=-0.359217
+[BSA] iter=10/50 gbest_score=-0.359339
+[BSA] iter=15/50 gbest_score=-0.360214
+[BSA] iter=20/50 gbest_score=-0.360214
+[BSA] iter=25/50 gbest_score=-0.360214
+[BSA] iter=30/50 gbest_score=-0.360214
+[BSA] iter=35/50 gbest_score=-0.360214
+[BSA] iter=40/50 gbest_score=-0.360214
+[BSA] iter=45/50 gbest_score=-0.360214
+[BSA] iter=50/50 gbest_score=-0.360214
+[BSA] finished. best_score= -0.36021384504295256
+--> BalancedRF Baseline F1: 0.3397 | Optimized F1: 0.3602 | Improvement: 0.0205
+    Best Params: [299.3992  16.8051]
+
+==================================================
+🏆 Overall Best Model: BalancedRF
+   - Baseline CV F1:     0.3397
+   - Optimized CV F1:    0.3602
+   - Raw Best Params: [299.39924452  16.80509308]
+==================================================
+
+Training final model on full training set...
+Saved trained pipeline + metadata to 'best_pipeline.joblib'
+
+Final model performance at threshold=0.5:
+              precision    recall  f1-score   support
+
+           0     0.9185    0.7880    0.8483      8690
+           1     0.2759    0.5359    0.3643      1310
+
+    accuracy                         0.7550     10000
+   macro avg     0.5972    0.6620    0.6063     10000
+weighted avg     0.8343    0.7550    0.7849     10000
+
+Confusion matrix:
+ [[6848 1842]
+ [ 608  702]]
+ROC AUC: 0.7305
+Best threshold (by F1) on test set: 0.52 -> F1=0.3683
+Precision (best t): 0.29411764705882354
+Recall (best t): 0.49236641221374045
+
+Top features by importance:
+                            feature  importance
+10                  EngagementScore    0.177429
+1                           BasePay    0.055989
+8                 PercentSalaryHike    0.051036
+9                      BonusPercent    0.049420
+7            AvgHoursWorkedPerMonth    0.048195
+19               pay_per_experience    0.047449
+20                   ManagerID_freq    0.043250
+11                PerformanceRating    0.041773
+3               DistanceFromHome_km    0.040031
+0                               Age    0.034740
+6               LeavesTakenLastYear    0.032462
+2                          TeamSize    0.031706
+5               WorkExperienceYears    0.030451
+4               NoOfCompaniesWorked    0.023408
+13                   YearsAtCompany    0.018991
+12         CountCoursesDoneLastYear    0.018817
+18                   overwork_index    0.016870
+16          YearsWithCurrentManager    0.016504
+17                     tenure_ratio    0.015809
+14               YearsInCurrentRole    0.013707
+15          YearsSinceLastPromotion    0.012061
+45             EducationField_CS/IT    0.007235
+40  HighestEducationLevel_Bachelors    0.007049
+26             MaritalStatus_Single    0.006902
+25            MaritalStatus_Married    0.006799
+22                      Gender_Male    0.006743
+21                    Gender_Female    0.006639
+41    HighestEducationLevel_Masters    0.006278
+46       EducationField_Engineering    0.006252
+44          EducationField_Business    0.005865
+
+Final Test Accuracy: 0.755
+
+Done.
